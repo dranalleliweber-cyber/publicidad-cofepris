@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprende a identificar si tu publicidad médica requiere Aviso o Permiso de COFEPRIS. Evita multas y sanciones en redes sociales y consultorios.">
+    <meta name="keywords" content="COFEPRIS, Publicidad Médica, Aviso de Publicidad, Permiso de Publicidad, Regulación Sanitaria, Dra Nalleli Weber, Curso Médicos">
+    <meta name="author" content="Dra. Nalleli Weber Chuliá">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tu-usuario.github.io/cofepris-landing/">
+    <meta property="og:title" content="¿Aviso o Permiso de Publicidad? Evita Sanciones de COFEPRIS">
+    <meta property="og:description" content="Curso práctico online para el sector salud con la Dra. Nalleli Weber. Evita costosas multas sanitarias en redes sociales y medios digitales.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1200&auto=format&fit=crop">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="¿Aviso o Permiso de Publicidad? Evita Sanciones de COFEPRIS">
+    <meta property="twitter:description" content="Curso práctico online para el sector salud con la Dra. Nalleli Weber. Evita costosas multas sanitarias en redes sociales y medios digitales.">
+
+    <title>¿Aviso o Permiso de Publicidad? | COFEPRIS Sanciones y Regulación Sanitaria</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght=600;700;800&family=Inter:wght=300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS (for structure and flexibility) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AOS (Animate on Scroll) CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        petroleo: '#0F3D5E',
+                        burgundy: '#7A1F3D',
+                        dorado: '#C8A24A',
+                        doradoHover: '#B08E3E',
+                        alerta: '#C62828',
+                        grisclaro: '#F4F6F8',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Cinzel', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .bg-premium-gradient {
+            background: linear-gradient(135deg, #0F3D5E 0%, #082133 100%);
+        }
+        .bg-wine-gradient {
+            background: linear-gradient(135deg, #7A1F3D 0%, #4D1224 100%);
+        }
+        .bg-gold-gradient {
+            background: linear-gradient(135deg, #C8A24A 0%, #9F7E34 100%);
+        }
+        .text-shadow-premium {
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .premium-border-gold {
+            border: 1px solid rgba(200, 162, 74, 0.3);
+        }
+        .card-premium-hover {
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+        .card-premium-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(15, 61, 94, 0.15);
+            border-color: #C8A24A;
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 100;
+            animation: pulse-whatsapp 2s infinite;
+        }
+        @keyframes pulse-whatsapp {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F4F6F8;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #0F3D5E;
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #7A1F3D;
+        }
+    </style>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationEvent",
+      "name": "¿Aviso o Permiso de Publicidad? Descubre cuál te corresponde y evita sanciones de COFEPRIS",
+      "description": "Aprende a identificar el trámite correcto para la publicidad de servicios de salud, productos y establecimientos sanitarios, evitando errores y sanciones económicas de COFEPRIS.",
+      "startDate": "2026-08-01T10:00:00-06:00",
+      "endDate": "2026-08-01T13:00:00-06:00",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://zoom.us"
+      },
+      "image": [
+        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "2500",
+        "priceCurrency": "MXN",
+        "url": "https://forms.gle/rakiZC96nne6Xxyn6",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-05-01"
+      },
+      "performer": {
+        "@type": "Person",
+        "name": "Dra. Nalleli Weber Chuliá",
+        "jobTitle": "Especialista en Derecho Sanitario y Perito Médico Federal"
+      }
+    }
+    </script>
+</head>
+<body class="bg-white text-slate-800 font-sans antialiased overflow-x-hidden">
+
+    <!-- Sticky Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-md border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-3">
+                <!-- Elegant Medical/Legal Emblem -->
+                <div class="bg-petroleo p-2 rounded-lg text-dorado flex items-center justify-center">
+                    <i class="fa-solid fa-scale-balanced text-xl"></i>
+                </div>
+                <div>
+                    <span class="block font-serif text-lg font-bold text-petroleo tracking-wider leading-none">DRA. WEBER</span>
+                    <span class="block text-xs uppercase tracking-widest text-burgundy font-semibold">Regulación Sanitaria</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#riesgos" class="hover:text-petroleo transition-colors">Estadísticas y Alertas</a>
+                <a href="#perfil" class="hover:text-petroleo transition-colors">Para quién es</a>
+                <a href="#programa" class="hover:text-petroleo transition-colors">Programa</a>
+                <a href="#ponente" class="hover:text-petroleo transition-colors">Dra. Weber</a>
+                <a href="#faq" class="hover:text-petroleo transition-colors">Preguntas</a>
+            </nav>
+
+            <!-- Call to Action Button in Header -->
+            <div class="flex items-center space-x-4">
+                <a href="#registro" class="hidden lg:inline-flex items-center px-5 py-2.5 bg-dorado hover:bg-doradoHover text-white text-xs font-bold uppercase tracking-wider rounded-lg transition-transform hover:-translate-y-0.5 shadow-md">
+                    Inscribirse Ahora
+                </a>
+                <!-- Mobile Menu Button -->
+                <button id="mobileMenuBtn" class="md:hidden text-petroleo text-2xl focus:outline-none">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu Dropdown -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white border-t border-gray-100 px-6 py-4 space-y-4 shadow-lg absolute w-full left-0">
+            <a href="#riesgos" class="block font-medium text-slate-700 hover:text-petroleo py-2 border-b border-gray-100">Estadísticas y Alertas</a>
+            <a href="#perfil" class="block font-medium text-slate-700 hover:text-petroleo py-2 border-b border-gray-100">Para quién es</a>
+            <a href="#programa" class="block font-medium text-slate-700 hover:text-petroleo py-2 border-b border-gray-100">Programa</a>
+            <a href="#ponente" class="block font-medium text-slate-700 hover:text-petroleo py-2 border-b border-gray-100">Dra. Weber</a>
+            <a href="#faq" class="block font-medium text-slate-700 hover:text-petroleo py-2 border-b border-gray-100">Preguntas Frecuentes</a>
+            <a href="#registro" class="block text-center bg-dorado text-white font-bold py-3 rounded-lg shadow-md hover:bg-doradoHover transition-colors">Inscribirse Ahora</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-premium-gradient text-white py-16 lg:py-24 overflow-hidden">
+        <!-- Subtle Pattern Overlay -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+            <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid)" />
+            </svg>
+        </div>
+
+        <!-- Golden highlight top bar decoration -->
+        <div class="absolute top-0 left-0 w-full h-1 bg-gold-gradient"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-4xl mx-auto text-center space-y-6" data-aos="fade-up">
+                
+                <span class="inline-block bg-dorado text-slate-900 font-extrabold uppercase text-xs tracking-widest px-3.5 py-1.5 rounded-full shadow-lg">
+                    <i class="fa-solid fa-circle-exclamation mr-1 text-alerta"></i> Exclusivo para Profesionales de la Salud
+                </span>
+                
+                <h1 class="font-serif text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white tracking-wide text-shadow-premium">
+                    ¿Aviso o Permiso de Publicidad? <br>
+                    <span class="text-dorado">Descubre cuál te corresponde y evita sanciones de COFEPRIS.</span>
+                </h1>
+                
+                <p class="text-base md:text-lg text-slate-200 leading-relaxed max-w-2xl mx-auto">
+                    Aprende a identificar el trámite correcto para la publicidad de servicios de salud, productos y establecimientos sanitarios, evitando errores que pueden deparar en sanciones económicas y administrativas severas.
+                </p>
+
+                <!-- Event Quick Facts badge grid -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-4 text-left max-w-lg mx-auto">
+                    <div class="bg-white/5 border border-white/10 p-3 rounded-lg">
+                        <span class="block text-xs uppercase text-dorado font-bold">Fecha</span>
+                        <span class="block text-sm font-semibold">Sáb. 1 de agosto</span>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 p-3 rounded-lg">
+                        <span class="block text-xs uppercase text-dorado font-bold">Horario</span>
+                        <span class="block text-sm font-semibold">10:00 a 13:00 hrs</span>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 p-3 rounded-lg col-span-2 sm:col-span-1">
+                        <span class="block text-xs uppercase text-dorado font-bold">Modalidad</span>
+                        <span class="block text-sm font-semibold"><i class="fa-solid fa-video mr-1 text-emerald-400"></i> En línea</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center pt-6">
+                    <a href="#registro" class="px-8 py-4 bg-dorado hover:bg-doradoHover text-slate-950 font-extrabold uppercase text-sm tracking-wider rounded-lg transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-dorado/20 flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-user-check"></i> Reservar mi lugar
+                    </a>
+                    <a href="https://wa.me/525585041540?text=Hola%20Dra.%20Weber%2C%20deseo%20recibir%20informaci%C3%B3n%20e%20inscribirme%20al%20curso%20%C2%BFAviso%20o%20Permiso%20de%20Publicidad%3F" target="_blank" class="px-8 py-4 bg-transparent hover:bg-white/5 border-2 border-white/30 hover:border-white/60 text-white font-bold uppercase text-sm tracking-wider rounded-lg transition-all duration-300 flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-info-circle"></i> Solicitar información
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics & Official Impact Section -->
+    <section id="riesgos" class="py-20 bg-grisclaro text-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <span class="text-xs uppercase tracking-widest text-burgundy font-extrabold block mb-2">Panorama Regulatorio Nacional</span>
+                <h2 class="font-serif text-3xl md:text-4xl font-bold text-petroleo">La Realidad de las Sanciones de COFEPRIS</h2>
+                <div class="w-16 h-1 bg-dorado mx-auto mt-4"></div>
+                <p class="text-slate-600 mt-4 text-sm md:text-base">
+                    Estadísticas nacionales sobre vigilancia y sanciones en publicidad del sector salud. COFEPRIS ha intensificado drásticamente la revisión digital en redes sociales.
+                </p>
+            </div>
+
+            <!-- Animated Counters/Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 text-center max-w-4xl mx-auto">
+                <!-- Stat Card 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 flex flex-col justify-between" data-aos="zoom-in" data-aos-delay="100">
+                    <div>
+                        <div class="text-slate-400 text-3xl mb-4"><i class="fa-solid fa-gavel text-burgundy"></i></div>
+                        <span class="block text-4xl font-extrabold text-petroleo mb-2 font-serif" id="stat-1">85%</span>
+                        <p class="text-sm font-semibold text-slate-800 uppercase tracking-wider">De Irregularidades Detectadas</p>
+                    </div>
+                    <p class="text-xs text-slate-500 mt-4 border-t border-gray-100 pt-4">
+                        En publicidad del sector médico en redes sociales carece de aviso o permiso correspondiente.
+                    </p>
+                </div>
+                <!-- Stat Card 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 flex flex-col justify-between" data-aos="zoom-in" data-aos-delay="350">
+                    <div>
+                        <div class="text-slate-400 text-3xl mb-4"><i class="fa-solid fa-eye text-petroleo"></i></div>
+                        <span class="block text-4xl font-extrabold text-petroleo mb-2 font-serif" id="stat-3">24/7</span>
+                        <p class="text-sm font-semibold text-slate-800 uppercase tracking-wider">Monitoreo Digital Activo</p>
+                    </div>
+                    <p class="text-xs text-slate-500 mt-4 border-t border-gray-100 pt-4">
+                        Vigilancia constante automatizada y manual de perfiles en Instagram, Facebook, TikTok y webs oficiales sanitarias.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Highly noticeable warning alert boxes using color #C62828 only -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Alert Box 1 -->
+                <div class="border-2 border-alerta/30 bg-red-50 p-6 rounded-xl flex flex-col justify-between" data-aos="fade-up" data-aos-delay="100">
+                    <div>
+                        <div class="w-10 h-10 bg-alerta rounded-lg flex items-center justify-center text-white text-lg mb-4">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-sm mb-2">Redes Sociales Bajo la Lupa</h4>
+                        <p class="text-xs text-slate-700 leading-relaxed">
+                            Publicar en redes sociales también puede constituir publicidad sanitaria y requerir autorización formal de COFEPRIS.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Alert Box 2 -->
+                <div class="border-2 border-alerta/30 bg-red-50 p-6 rounded-xl flex flex-col justify-between" data-aos="fade-up" data-aos-delay="200">
+                    <div>
+                        <div class="w-10 h-10 bg-alerta rounded-lg flex items-center justify-center text-white text-lg mb-4">
+                            <i class="fa-solid fa-circle-nodes"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-sm mb-2">Trámites Diferenciados</h4>
+                        <p class="text-xs text-slate-700 leading-relaxed">
+                            No toda la publicidad requiere el mismo trámite. Confundir un Aviso con un Permiso es un error grave y sumamente común.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Alert Box 3 -->
+                <div class="border-2 border-alerta/30 bg-red-50 p-6 rounded-xl flex flex-col justify-between" data-aos="fade-up" data-aos-delay="300">
+                    <div>
+                        <div class="w-10 h-10 bg-alerta rounded-lg flex items-center justify-center text-white text-lg mb-4">
+                            <i class="fa-solid fa-users-viewfinder"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-sm mb-2">Responsabilidad con Influencers</h4>
+                        <p class="text-xs text-slate-700 leading-relaxed">
+                            Los influencers también pueden generar responsabilidad sanitaria directa y solidaria para tu marca o clínica de salud.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Alert Box 4 -->
+                <div class="border-2 border-alerta/30 bg-red-50 p-6 rounded-xl flex flex-col justify-between" data-aos="fade-up" data-aos-delay="400">
+                    <div>
+                        <div class="w-10 h-10 bg-alerta rounded-lg flex items-center justify-center text-white text-lg mb-4">
+                            <i class="fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-sm mb-2">Sanciones Administrativas</h4>
+                        <p class="text-xs text-slate-700 leading-relaxed">
+                            Un error en tu publicidad puede derivar en multas severas, clausura del establecimiento y suspensión total del contenido publicitario.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience Section -->
+    <section id="perfil" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <span class="text-xs uppercase tracking-widest text-burgundy font-extrabold block mb-2">¿Este Curso es para Ti?</span>
+                <h2 class="font-serif text-3xl md:text-4xl font-bold text-petroleo">Dirigido a Profesionales que Buscan Seguridad Legal</h2>
+                <div class="w-16 h-1 bg-dorado mx-auto mt-4"></div>
+                <p class="text-slate-600 mt-4 text-sm md:text-base">
+                    Diseñado exclusivamente para el ecosistema del sector salud y marketing médico en México.
+                </p>
+            </div>
+
+            <!-- Audience Profile Cards Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <!-- Profile Card 1 -->
+                <div class="bg-slate-50 border border-gray-100 p-6 rounded-xl text-center card-premium-hover" data-aos="fade-up" data-aos-delay="50">
+                    <div class="w-12 h-12 bg-petroleo text-dorado rounded-full flex items-center justify-center mx-auto mb-4 text-xl shadow">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-900 text-sm">Médicos y Odontólogos</h4>
+                    <p class="text-xs text-slate-500 mt-2">Médicos generales, especialistas y dentistas independientes.</p>
+                </div>
+                <!-- Profile Card 2 -->
+                <div class="bg-slate-50 border border-gray-100 p-6 rounded-xl text-center card-premium-hover" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-12 h-12 bg-petroleo text-dorado rounded-full flex items-center justify-center mx-auto mb-4 text-xl shadow">
+                        <i class="fa-solid fa-hospital"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-900 text-sm">Clínicas y Hospitales</h4>
+                    <p class="text-xs text-slate-500 mt-2">Administradores de instituciones de salud grandes y medianas.</p>
+                </div>
+                <!-- Profile Card 3 -->
+                <div class="bg-slate-50 border border-gray-100 p-6 rounded-xl text-center card-premium-hover" data-aos="fade-up" data-aos-delay="150">
+                    <div class="w-12 h-12 bg-petroleo text-dorado rounded-full flex items-center justify-center mx-auto mb-4 text-xl shadow">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-900 text-sm">Medicina Estética & Spas</h4>
+                    <p class="text-xs text-slate-500 mt-2">Centros estéticos, cosmetológicos y clínicas de rejuvenecimiento.</p>
+                </div>
+                <!-- Profile Card 4 -->
+                <div class="bg-slate-50 border border-gray-100 p-6 rounded-xl text-center card-premium-hover" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-12 h-12 bg-petroleo text-dorado rounded-full flex items-center justify-center mx-auto mb-4 text-xl shadow">
+                        <i class="fa-solid fa-flask-vial"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-900 text-sm">Laboratorios y Distribuidores</h4>
+                    <p class="text-xs text-slate-500 mt-2">Marcas comercializadoras de insumos, fármacos y suplementos.</p>
+                </div>
+                <!-- Profile Card 5 -->
+                <div class="bg-slate-50 border border-gray-100 p-6 rounded-xl text-center card-premium-hover" data-aos="fade-up" data-aos-delay="250">
+                    <div class="w-12 h-12 bg-petroleo text-dorado rounded-full flex items-center justify-center mx-auto mb-4 text-xl shadow">
+                        <i class="fa-solid fa-shield-virus"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-900 text-sm">Responsables Sanitarios</h4>
+                    <p class="text-xs text-slate-500 mt-2">Encargados técnicos de la vigilancia regulatoria interna de consultorios.</p>
+                </div>
+                <!-- Profile Card 6 -->
+                <div class="bg-slate-50 border border-gray-100 p-6 rounded-xl text-center card-premium-hover" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-12 h-12 bg-petroleo text-dorado rounded-full flex items-center justify-center mx-auto mb-4 text-xl shadow">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-900 text-sm">Agencias de Marketing Médico</h4>
+                    <p class="text-xs text-slate-500 mt-2">Equipos creativos, consultoras y agencias nicho del sector salud.</p>
+                </div>
+                <!-- Profile Card 7 -->
+                <div class="bg-slate-50 border border-gray-100 p-6 rounded-xl text-center card-premium-hover" data-aos="fade-up" data-aos-delay="350">
+                    <div class="w-12 h-12 bg-petroleo text-dorado rounded-full flex items-center justify-center mx-auto mb-4 text-xl shadow">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-900 text-sm">Community Managers</h4>
+                    <p class="text-xs text-slate-500 mt-2">Profesionales independientes que administran perfiles de doctores.</p>
+                </div>
+                <!-- Profile Card 8 -->
+                <div class="bg-slate-50 border border-gray-100 p-6 rounded-xl text-center card-premium-hover" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-12 h-12 bg-petroleo text-dorado rounded-full flex items-center justify-center mx-auto mb-4 text-xl shadow">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-900 text-sm">Influencers del Sector Salud</h4>
+                    <p class="text-xs text-slate-500 mt-2">Creadores de contenido de salud y promotores de bienestar digital.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Program Timeline Section -->
+    <section id="programa" class="py-20 bg-premium-gradient text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <span class="text-xs uppercase tracking-widest text-dorado font-extrabold block mb-2">Estructura Curricular Premium</span>
+                <h2 class="font-serif text-3xl md:text-4xl font-bold">Programa Académico Detallado</h2>
+                <div class="w-16 h-1 bg-burgundy mx-auto mt-4"></div>
+                <p class="text-slate-300 mt-4 text-sm md:text-base">
+                    Un viaje formativo estratégico estructurado secuencialmente para dominar cada aspecto de la legislación publicitaria de COFEPRIS.
+                </p>
+            </div>
+
+            <!-- Modern Timeline -->
+            <div class="relative border-l-2 border-dorado/30 max-w-4xl mx-auto pl-6 sm:pl-10 space-y-12">
+                <!-- Module 1 -->
+                <div class="relative" data-aos="fade-left">
+                    <!-- Dot -->
+                    <div class="absolute -left-[35px] sm:-left-[51px] top-1.5 w-6 h-6 rounded-full bg-dorado border-4 border-slate-950 flex items-center justify-center">
+                        <span class="text-[10px] font-extrabold text-slate-950">1</span>
+                    </div>
+                    <div class="bg-slate-900/60 premium-border-gold p-6 rounded-xl">
+                        <span class="text-xs font-bold text-dorado uppercase tracking-wider block mb-1">Módulo I</span>
+                        <h3 class="font-serif text-xl font-bold mb-3">Introducción al Control Sanitario de la Publicidad</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            ¿Qué regula COFEPRIS en materia de publicidad? Revisaremos el alcance del órgano regulador sobre perfiles personales, clínicas y empresas del sector salud.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Module 2 -->
+                <div class="relative" data-aos="fade-left" data-aos-delay="100">
+                    <!-- Dot -->
+                    <div class="absolute -left-[35px] sm:-left-[51px] top-1.5 w-6 h-6 rounded-full bg-dorado border-4 border-slate-950 flex items-center justify-center">
+                        <span class="text-[10px] font-extrabold text-slate-950">2</span>
+                    </div>
+                    <div class="bg-slate-900/60 premium-border-gold p-6 rounded-xl">
+                        <span class="text-xs font-bold text-dorado uppercase tracking-wider block mb-1">Módulo II</span>
+                        <h3 class="font-serif text-xl font-bold mb-3">Marco Jurídico de la Publicidad Sanitaria</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Análisis del marco jurídico, Ley General de Salud y el Reglamento en Materia de Publicidad. Fundamentos sólidos aplicados a la consulta y promoción de servicios médicos.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Module 3 -->
+                <div class="relative" data-aos="fade-left" data-aos-delay="200">
+                    <!-- Dot -->
+                    <div class="absolute -left-[35px] sm:-left-[51px] top-1.5 w-6 h-6 rounded-full bg-dorado border-4 border-slate-950 flex items-center justify-center">
+                        <span class="text-[10px] font-extrabold text-slate-950">3</span>
+                    </div>
+                    <div class="bg-slate-900/60 premium-border-gold p-6 rounded-xl">
+                        <span class="text-xs font-bold text-dorado uppercase tracking-wider block mb-1">Módulo III</span>
+                        <h3 class="font-serif text-xl font-bold mb-3">Diferencias entre Aviso y Permiso de Publicidad</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Aprende a diferenciar claramente ambos esquemas regulatorios. Identificaremos minuciosamente quién debe presentar cada trámite según su especialidad médica y giro del establecimiento.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Module 4 -->
+                <div class="relative" data-aos="fade-left" data-aos-delay="300">
+                    <!-- Dot -->
+                    <div class="absolute -left-[35px] sm:-left-[51px] top-1.5 w-6 h-6 rounded-full bg-dorado border-4 border-slate-950 flex items-center justify-center">
+                        <span class="text-[10px] font-extrabold text-slate-950">4</span>
+                    </div>
+                    <div class="bg-slate-900/60 premium-border-gold p-6 rounded-xl">
+                        <span class="text-xs font-bold text-dorado uppercase tracking-wider block mb-1">Módulo IV</span>
+                        <h3 class="font-serif text-xl font-bold mb-3">Publicidad Digital y Redes Sociales</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Cómo pautar y promocionar legalmente en Facebook, Instagram, TikTok, Google y sitios web médicos. Abordaremos la regulación de productos milagro, servicios estéticos y establecimientos sanitarios.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Module 5 -->
+                <div class="relative" data-aos="fade-left" data-aos-delay="400">
+                    <!-- Dot -->
+                    <div class="absolute -left-[35px] sm:-left-[51px] top-1.5 w-6 h-6 rounded-full bg-dorado border-4 border-slate-950 flex items-center justify-center">
+                        <span class="text-[10px] font-extrabold text-slate-950">5</span>
+                    </div>
+                    <div class="bg-slate-900/60 premium-border-gold p-6 rounded-xl">
+                        <span class="text-xs font-bold text-dorado uppercase tracking-wider block mb-1">Módulo V</span>
+                        <h3 class="font-serif text-xl font-bold mb-3">Casos Prácticos y Sesión de Dudas</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Análisis minucioso de errores frecuentes cometidos por influencers y clínicas, junto con los criterios utilizados internamente por la comisión sanitaria COFEPRIS para la imposición de multas. Cierre con sesión abierta de preguntas y respuestas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Influencers & Social Media Deep Dive -->
+    <section class="py-20 bg-white text-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                
+                <!-- Graphic Illustration Column -->
+                <div class="order-2 lg:order-1" data-aos="fade-right">
+                    <div class="bg-slate-950 p-6 md:p-8 rounded-2xl text-white shadow-2xl relative">
+                        <div class="absolute -top-3 -right-3 bg-dorado text-slate-900 text-xs font-bold px-3 py-1 rounded-full uppercase">
+                            ¡Monitoreado!
+                        </div>
+                        <h4 class="font-serif text-lg font-bold text-dorado mb-4"><i class="fa-solid fa-mobile-screen-button mr-2"></i> Anatomía de una Publicación Irregular</h4>
+                        <p class="text-xs text-slate-300 mb-6">Un simple post en Instagram puede ser catalogado como publicidad sanitaria sin que te des cuenta. COFEPRIS analiza:</p>
+                        
+                        <!-- Visual elements -->
+                        <div class="space-y-4 text-xs">
+                            <div class="flex items-start bg-slate-900 p-3 rounded-lg border-l-4 border-burgundy">
+                                <span class="bg-burgundy text-white font-extrabold w-5 h-5 rounded-full flex items-center justify-center mr-3 flex-shrink-0">1</span>
+                                <div>
+                                    <h5 class="font-bold text-white">Promesas de Resultados ("Antes y Después")</h5>
+                                    <p class="text-slate-400 mt-1">Colocar fotografías comparativas de pacientes sin la debida advertencia metodológica está estrictamente restringido.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start bg-slate-900 p-3 rounded-lg border-l-4 border-burgundy">
+                                <span class="bg-burgundy text-white font-extrabold w-5 h-5 rounded-full flex items-center justify-center mr-3 flex-shrink-0">2</span>
+                                <div>
+                                    <h5 class="font-bold text-white">Testimonios de Pacientes</h5>
+                                    <p class="text-slate-400 mt-1">Garantizar que un treatment funciona basados en la experiencia empírica individual se considera publicidad engañosa si no tiene sustento científico clínico.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start bg-slate-900 p-3 rounded-lg border-l-4 border-burgundy">
+                                <span class="bg-burgundy text-white font-extrabold w-5 h-5 rounded-full flex items-center justify-center mr-3 flex-shrink-0">3</span>
+                                <div>
+                                    <h5 class="font-bold text-white">Colaboraciones con Influencers</h5>
+                                    <p class="text-slate-400 mt-1">El patrocinio pagado de suplementos alimenticios o clínicas médicas a creadores de contenido sin aviso oficial de publicidad genera multas solidarias.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text Content Column -->
+                <div class="space-y-6 order-1 lg:order-2" data-aos="fade-left">
+                    <span class="text-xs uppercase tracking-widest text-burgundy font-extrabold block">Alerta Digital Sanitaria</span>
+                    <h2 class="font-serif text-3xl md:text-4xl font-bold text-petroleo">Influencers y Redes Sociales Bajo la Lupa de la Autoridad</h2>
+                    <p class="text-slate-600 text-sm md:text-base leading-relaxed">
+                        En los últimos años, la autoridad sanitaria ha emitido alertas y sanciones directas debido a malas prácticas en publicaciones de bienestar, tratamientos estéticos e implantes, entre otros.
+                    </p>
+                    <p class="text-slate-600 text-sm md:text-base leading-relaxed">
+                        Muchos profesionales creen equivocadamente que el contenido orgánico en redes sociales está exento de regulación. Sin embargo, cualquier publicación que invite al consumo o contratación de un servicio de salud es considerada publicidad por la autoridad.
+                    </p>
+                    <div class="pt-4">
+                        <a href="#registro" class="inline-flex items-center gap-2 bg-burgundy hover:bg-burgundy/90 text-white font-bold px-6 py-3.5 rounded-lg text-sm uppercase tracking-wider transition-all shadow-md">
+                            Evitar Riesgos Regulatorios <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Minimalist Legal Framework Section -->
+    <section class="py-16 bg-premium-gradient text-white border-t border-b border-dorado/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="font-serif text-xl font-bold text-dorado uppercase tracking-widest mb-8">Marco Jurídico de Referencia Nacional</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto text-sm">
+                <div class="p-5 bg-slate-900/50 premium-border-gold rounded-lg flex items-center justify-center gap-3">
+                    <i class="fa-solid fa-book-bookmark text-dorado text-lg"></i>
+                    <span class="font-medium text-slate-200">Ley General de Salud</span>
+                </div>
+                <div class="p-5 bg-slate-900/50 premium-border-gold rounded-lg flex items-center justify-center gap-3">
+                    <i class="fa-solid fa-scale-unbalanced-flip text-dorado text-lg"></i>
+                    <span class="font-medium text-slate-200">Reglamento de la LGS en Materia de Publicidad</span>
+                </div>
+                <div class="p-5 bg-slate-900/50 premium-border-gold rounded-lg flex items-center justify-center gap-3">
+                    <i class="fa-solid fa-gavel text-dorado text-lg"></i>
+                    <span class="font-medium text-slate-200">Criterios de Vigilancia COFEPRIS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You Will Learn Section -->
+    <section class="py-20 bg-white text-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <span class="text-xs uppercase tracking-widest text-burgundy font-extrabold block mb-2">Objetivos del Aprendizaje</span>
+                <h2 class="font-serif text-3xl md:text-4xl font-bold text-petroleo">Lo Que Aprenderás en esta Jornada Académica</h2>
+                <div class="w-16 h-1 bg-dorado mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Learning Card 1 -->
+                <div class="bg-slate-50 p-6 rounded-xl border border-gray-100 flex flex-col justify-between" data-aos="fade-up" data-aos-delay="100">
+                    <div>
+                        <div class="w-10 h-10 bg-petroleo/10 text-petroleo rounded-lg flex items-center justify-center text-lg mb-4">
+                            <i class="fa-solid fa-clipboard-question"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-sm mb-2">Identificación de Trámites</h4>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Determinar con precisión matemática cuándo corresponde tramitar un Aviso y cuándo es indispensable solicitar el Permiso.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Learning Card 2 -->
+                <div class="bg-slate-50 p-6 rounded-xl border border-gray-100 flex flex-col justify-between" data-aos="fade-up" data-aos-delay="200">
+                    <div>
+                        <div class="w-10 h-10 bg-petroleo/10 text-petroleo rounded-lg flex items-center justify-center text-lg mb-4">
+                            <i class="fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-sm mb-2">Evitar Errores Comunes</h4>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Aprender a sortear los deslices administrativos típicos que cometen los profesionales en sus campañas digitales.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Learning Card 3 -->
+                <div class="bg-slate-50 p-6 rounded-xl border border-gray-100 flex flex-col justify-between" data-aos="fade-up" data-aos-delay="300">
+                    <div>
+                        <div class="w-10 h-10 bg-petroleo/10 text-petroleo rounded-lg flex items-center justify-center text-lg mb-4">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-sm mb-2">Auditoría Preventiva</h4>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Revisar exhaustivamente toda tu pauta e imágenes publicitarias antes de publicarlas en redes para eliminar cualquier riesgo sanitario.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Learning Card 4 -->
+                <div class="bg-slate-50 p-6 rounded-xl border border-gray-100 flex flex-col justify-between" data-aos="fade-up" data-aos-delay="400">
+                    <div>
+                        <div class="w-10 h-10 bg-petroleo/10 text-petroleo rounded-lg flex items-center justify-center text-lg mb-4">
+                            <i class="fa-solid fa-scroll"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-sm mb-2">Casos Reales de Estudio</h4>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Estudio de resoluciones previas del órgano de control sanitario para anticipar y prever objeciones de la autoridad.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Learning Card 5 -->
+                <div class="bg-slate-50 p-6 rounded-xl border border-gray-100 flex flex-col justify-between" data-aos="fade-up" data-aos-delay="500">
+                    <div>
+                        <div class="w-10 h-10 bg-petroleo/10 text-petroleo rounded-lg flex items-center justify-center text-lg mb-4">
+                            <i class="fa-solid fa-user-shield"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-sm mb-2">Reducción del Riesgo</h4>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Establecer una metodología de cumplimiento interno sólido para proteger la reputación corporativa de tu marca o consultorio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Take This Course Section -->
+    <section class="py-20 bg-grisclaro text-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <span class="text-xs uppercase tracking-widest text-burgundy font-extrabold block mb-2">Nuestra Propuesta de Valor</span>
+                <h2 class="font-serif text-3xl md:text-4xl font-bold text-petroleo">¿Por Qué Tomar Este Curso Especializado?</h2>
+                <div class="w-16 h-1 bg-dorado mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Value Card 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 flex items-start gap-4">
+                    <span class="text-2xl text-dorado mt-1"><i class="fa-solid fa-scale-balanced"></i></span>
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-sm">Casos Clínicos Reales</h4>
+                        <p class="text-xs text-slate-500 mt-1">Aprenderemos a partir de expedientes reales de multas impuestas para comprender el criterio institucional.</p>
+                    </div>
+                </div>
+                <!-- Value Card 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 flex items-start gap-4">
+                    <span class="text-2xl text-dorado mt-1"><i class="fa-solid fa-graduation-cap"></i></span>
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-sm">Enfoque 100% Práctico</h4>
+                        <p class="text-xs text-slate-500 mt-1">Sin tecnicismos aburridos; resolveremos directamente las dudas concretas sobre tu práctica médica.</p>
+                    </div>
+                </div>
+                <!-- Value Card 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 flex items-start gap-4">
+                    <span class="text-2xl text-dorado mt-1"><i class="fa-solid fa-file-pdf"></i></span>
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-sm">Material Descargable Exclusivo</h4>
+                        <p class="text-xs text-slate-500 mt-1">Checklists de validación publicitaria rápida para ti o tu equipo de marketing médico.</p>
+                    </div>
+                </div>
+                <!-- Value Card 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 flex items-start gap-4">
+                    <span class="text-2xl text-dorado mt-1"><i class="fa-solid fa-check-double"></i></span>
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-sm">Actualización Normativa</h4>
+                        <p class="text-xs text-slate-500 mt-1">Contenido actualizado al presente año con las últimas circulares emitidas por la secretaría.</p>
+                    </div>
+                </div>
+                <!-- Value Card 5 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 flex items-start gap-4">
+                    <span class="text-2xl text-dorado mt-1"><i class="fa-solid fa-certificate"></i></span>
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-sm">Constancia con Validez Oficial</h4>
+                        <p class="text-xs text-slate-500 mt-1">Documento oficial que avala tu actualización y capacitación en regulación sanitaria de publicidad.</p>
+                    </div>
+                </div>
+                <!-- Value Card 6 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 flex items-start gap-4">
+                    <span class="text-2xl text-dorado mt-1"><i class="fa-solid fa-user-shield"></i></span>
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-sm">Resolución de Dudas Reales</h4>
+                        <p class="text-xs text-slate-500 mt-1">Sesión final donde la ponente analizará dudas concretas y dará retroalimentación a los participantes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Presenter Profile Section -->
+    <section id="ponente" class="py-20 bg-white text-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Presenter Bio Image with premium frame design -->
+                <div class="lg:col-span-5" data-aos="fade-right">
+                    <div class="relative mx-auto max-w-sm lg:max-w-none">
+                        <!-- Background golden & burgundy visual elements -->
+                        <div class="absolute inset-0 bg-gradient-to-tr from-burgundy to-dorado rounded-2xl transform rotate-3"></div>
+                        
+                        <!-- Profile Card Representation -->
+                        <div class="relative bg-slate-900 text-white rounded-2xl overflow-hidden shadow-2xl p-6 flex flex-col items-center text-center">
+                            
+                            <!-- Elegant Avatar Icon SVG (Self-contained and highly premium) -->
+                            <div class="w-40 h-40 rounded-full border-4 border-dorado overflow-hidden bg-slate-950 flex items-center justify-center mb-6 relative">
+                                <svg class="w-32 h-32 text-slate-400" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- Back glow -->
+                                    <circle cx="60" cy="60" r="48" fill="#0F3D5E" opacity="0.3" />
+                                    <!-- Medical coat details (Stethoscope & Collar) -->
+                                    <path d="M40 70 L35 120 H85 L80 70 Z" fill="#FFFFFF" />
+                                    <path d="M48 70 L35 120 M72 70 L85 120" stroke="#7A1F3D" stroke-width="4" />
+                                    <!-- Stethoscope -->
+                                    <path d="M52 85 C52 95, 68 95, 68 85" stroke="#C8A24A" stroke-width="2.5" fill="none" />
+                                    <path d="M60 93 V105" stroke="#C8A24A" stroke-width="2.5" />
+                                    <circle cx="60" cy="107" r="4" fill="#C8A24A" />
+                                    <!-- Head and hair silhouette (Female Doctor) -->
+                                    <path d="M60 25 C45 25 42 42 42 55 C42 68 50 68 60 68 C70 68 78 68 78 55 C78 42 75 25 60 25 Z" fill="#2D3748" />
+                                    <circle cx="60" cy="46" r="16" fill="#F7FAFC" />
+                                    <!-- Glasses representation -->
+                                    <rect x="50" y="42" width="8" height="6" rx="2" stroke="#C8A24A" stroke-width="1.5" />
+                                    <rect x="62" y="42" width="8" height="6" rx="2" stroke="#C8A24A" stroke-width="1.5" />
+                                    <line x1="58" y1="45" x2="62" y2="45" stroke="#C8A24A" stroke-width="1.5" />
+                                </svg>
+                            </div>
+
+                            <span class="block font-serif text-xl font-bold tracking-wide">Dra. Nalleli Weber Chuliá</span>
+                            <span class="block text-xs uppercase text-dorado font-bold mt-1 tracking-widest">Especialista en Derecho Sanitario</span>
+                            <div class="w-12 h-0.5 bg-burgundy my-4"></div>
+                            
+                            <!-- Credentials Grid -->
+                            <div class="space-y-2 text-xs text-slate-300 text-left w-full">
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-solid fa-graduation-cap text-dorado"></i>
+                                    <span>Médico Cirujano</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-solid fa-shield-halved text-dorado"></i>
+                                    <span>Salud en el Trabajo & Derecho Sanitario</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-solid fa-gavel text-dorado"></i>
+                                    <span>Perito Médico Federal</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bio Text Column -->
+                <div class="lg:col-span-7 space-y-6" data-aos="fade-left">
+                    <span class="text-xs uppercase tracking-widest text-burgundy font-extrabold block">Conoce a tu Ponente</span>
+                    <h2 class="font-serif text-3xl md:text-4xl font-bold text-petroleo">Una Trayectoria Consolidada en Regulación Sanitaria</h2>
+                    <div class="w-16 h-1 bg-dorado"></div>
+                    
+                    <p class="text-slate-600 text-sm md:text-base leading-relaxed">
+                        La <strong>Dra. Nalleli Weber Chuliá</strong> es médico especialista y consultora en derecho sanitario de gran prestigio nacional. Ha dedicado gran parte de su carrera profesional a asesorar integralmente a establecimientos de salud, médicos y marcas del sector farmacéutico.
+                    </p>
+                    <p class="text-slate-600 text-sm md:text-base leading-relaxed">
+                        Con más de 20 años de experiencia acumulada asesorando establecimientos de salud y representándolos en procedimientos regulatorios frente a COFEPRIS, posee una visión única de la intersección entre la práctica médica y el marco legal mexicano.
+                    </p>
+
+                    <div class="grid grid-cols-2 gap-4 text-xs font-semibold text-slate-800">
+                        <div class="flex items-center gap-2.5">
+                            <i class="fa-solid fa-circle-check text-burgundy"></i>
+                            <span>Asesoría COFEPRIS</span>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <i class="fa-solid fa-circle-check text-burgundy"></i>
+                            <span>Docente Universitaria</span>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <i class="fa-solid fa-circle-check text-burgundy"></i>
+                            <span>Auditoría Legal Sanitaria</span>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <i class="fa-solid fa-circle-check text-burgundy"></i>
+                            <span>Litigio Administrativo</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-grisclaro text-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <span class="text-xs uppercase tracking-widest text-burgundy font-extrabold block mb-2">Historias de Éxito</span>
+                <h2 class="font-serif text-3xl md:text-4xl font-bold text-petroleo">Lo que Dicen Nuestros Alumnos Inscritos</h2>
+                <div class="w-16 h-1 bg-dorado mx-auto mt-4"></div>
+            </div>
+
+            <!-- Testimonials Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 flex flex-col justify-between" data-aos="zoom-in" data-aos-delay="100">
+                    <p class="text-xs md:text-sm text-slate-600 italic leading-relaxed">
+                        "Estaba cometiendo el grave error de anunciar tratamientos estéticos complejos en Instagram sin permiso de publicidad. Con este curso logré ingresar mi trámite ante COFEPRIS exitosamente."
+                    </p>
+                    <div class="flex items-center gap-4 mt-6 border-t border-gray-100 pt-4">
+                        <div class="w-10 h-10 bg-slate-100 text-petroleo rounded-full flex items-center justify-center font-bold">
+                            DR
+                        </div>
+                        <div>
+                            <span class="block text-xs font-bold text-slate-900">Dr. Ricardo Salinas</span>
+                            <span class="block text-[10px] text-slate-400 uppercase">Dermatólogo Clínico, CDMX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 flex flex-col justify-between" data-aos="zoom-in" data-aos-delay="200">
+                    <p class="text-xs md:text-sm text-slate-600 italic leading-relaxed">
+                        "Como agencia de marketing médico, la capacitación de la Dra. Weber nos abrió los ojos. Ahora ofrecemos servicios de publicidad regulada protegiendo a nuestros clientes médicos de multas."
+                    </p>
+                    <div class="flex items-center gap-4 mt-6 border-t border-gray-100 pt-4">
+                        <div class="w-10 h-10 bg-slate-100 text-petroleo rounded-full flex items-center justify-center font-bold">
+                            MA
+                        </div>
+                        <div>
+                            <span class="block text-xs font-bold text-slate-900">Mariana Alarcón</span>
+                            <span class="block text-[10px] text-slate-400 uppercase">Directora de Agencia MedMarketing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 flex flex-col justify-between" data-aos="zoom-in" data-aos-delay="300">
+                    <p class="text-xs md:text-sm text-slate-600 italic leading-relaxed">
+                        "El material descargable y los checklists de auditoría regulatoria valen por completo la inversión. Es un curso de obligada asistencia para todo responsable sanitario."
+                    </p>
+                    <div class="flex items-center gap-4 mt-6 border-t border-gray-100 pt-4">
+                        <div class="w-10 h-10 bg-slate-100 text-petroleo rounded-full flex items-center justify-center font-bold">
+                            DF
+                        </div>
+                        <div>
+                            <span class="block text-xs font-bold text-slate-900">Dra. Fernanda Trejo</span>
+                            <span class="block text-[10px] text-slate-400 uppercase">Responsable Sanitaria, Jalisco</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Details & Pricing Section -->
+    <section class="py-20 bg-wine-gradient text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Pricing Info (Left) -->
+                <div class="lg:col-span-6 space-y-6 text-center lg:text-left" data-aos="fade-right">
+                    <span class="inline-block bg-dorado text-slate-950 font-bold px-3 py-1 rounded-full text-xs uppercase tracking-wider">
+                        Promoción por tiempo limitado
+                    </span>
+                    <h2 class="font-serif text-3xl md:text-4xl font-bold">
+                        Aprovecha el Precio Preferencial de Pago Anticipado
+                    </h2>
+                    <p class="text-slate-200 text-sm leading-relaxed max-w-lg mx-auto lg:mx-0">
+                        No esperes a recibir una notificación o requerimiento oficial de la COFEPRIS. Protege tu patrimonio y tu ejercicio profesional hoy mismo.
+                    </p>
+                </div>
+
+                <!-- Pricing Card (Right) -->
+                <div class="lg:col-span-6" data-aos="fade-left">
+                    <div class="bg-white text-slate-900 rounded-2xl p-8 shadow-2xl relative overflow-hidden border border-gray-100 max-w-md mx-auto">
+                        <div class="absolute top-0 right-0 bg-dorado text-slate-950 text-xs font-bold uppercase tracking-wider px-4 py-1 rounded-bl-xl shadow">
+                            Más del 20% OFF
+                        </div>
+                        
+                        <span class="text-xs uppercase font-extrabold tracking-widest text-burgundy block mb-1">Inversión Recomendada</span>
+                        <h3 class="font-serif text-2xl font-bold text-petroleo mb-6">Curso Regular COFEPRIS</h3>
+                        
+                        <!-- Price structure -->
+                        <div class="space-y-2 mb-6">
+                            <span class="block text-slate-400 text-sm line-through">Precio Normal: $3,200 MXN</span>
+                            <div class="flex items-baseline gap-2">
+                                <span class="text-4xl font-extrabold text-slate-900 font-serif">$2,500</span>
+                                <span class="text-lg font-bold text-slate-700">MXN</span>
+                            </div>
+                            <span class="block text-xs font-bold text-emerald-600 uppercase tracking-wide"><i class="fa-solid fa-circle-dollar-to-slot mr-1"></i> Facturable (+ IVA)</span>
+                        </div>
+
+                        <!-- Included Elements checklist -->
+                        <div class="space-y-3.5 text-xs text-slate-700 mb-8">
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text-dorado text-sm"></i>
+                                <span>Acceso en vivo a la sesión interactiva Zoom</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text-dorado text-sm"></i>
+                                <span>Constancia con validez oficial</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text-dorado text-sm"></i>
+                                <span>Plantilla y checklist de revisión publicitaria</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text-dorado text-sm"></i>
+                                <span>Sesión exclusiva de Preguntas y Respuestas</span>
+                            </div>
+                        </div>
+
+                        <a href="#registro" class="block text-center bg-dorado hover:bg-doradoHover text-slate-950 font-extrabold uppercase text-sm tracking-widest py-4 rounded-lg shadow-lg transition-all hover:scale-[1.02]">
+                            Reservar Mi Lugar Ahora
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="registro" class="py-20 bg-white text-slate-900">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            <div class="bg-slate-50 border border-gray-100 rounded-2xl p-8 md:p-12 shadow-2xl text-center relative" data-aos="fade-up">
+                
+                <div class="text-center max-w-2xl mx-auto mb-8">
+                    <span class="text-xs uppercase tracking-widest text-burgundy font-extrabold block mb-2">Paso 1 de 2: Pre-Registro Oficial</span>
+                    <h2 class="font-serif text-3xl font-bold text-petroleo">Formulario de Inscripción Profesional</h2>
+                    <p class="text-slate-500 text-xs mt-2">Para completar tu pre-registro, asegurar tu lugar y recibir las indicaciones de pago correspondientes, por favor accede a nuestro formulario oficial.</p>
+                </div>
+
+                <!-- Redirection Button directly to Google Forms -->
+                <div class="pt-4 max-w-md mx-auto">
+                    <a href="https://forms.gle/rakiZC96nne6Xxyn6" target="_blank" class="block text-center bg-dorado hover:bg-doradoHover text-slate-950 font-extrabold uppercase text-sm tracking-widest py-4 px-6 rounded-lg shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                        <i class="fa-solid fa-file-signature mr-2"></i> Completar mi Pre-Registro Aquí
+                    </a>
+                    <p class="text-slate-400 text-[10px] mt-4">
+                        Serás redirigido de manera segura a Google Forms para ingresar tus datos.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 bg-grisclaro text-slate-900">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <span class="text-xs uppercase tracking-widest text-burgundy font-extrabold block mb-2">Soporte y Orientación</span>
+                <h2 class="font-serif text-3xl font-bold text-petroleo">Preguntas Frecuentes</h2>
+                <div class="w-16 h-1 bg-dorado mx-auto mt-4"></div>
+            </div>
+
+            <!-- Accordion List -->
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
+                    <button class="w-full p-6 text-left font-serif font-bold text-slate-900 hover:text-petroleo transition-colors flex justify-between items-center focus:outline-none" onclick="toggleFaq(this)">
+                        <span>¿Cuál es la modalidad y cómo accedo a la plataforma?</span>
+                        <i class="fa-solid fa-chevron-down text-xs transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-xs md:text-sm text-slate-600 hidden">
+                        El curso es 100% online y en vivo a través de la plataforma Zoom. Recibirás tu enlace de acceso personalizado y las instrucciones correspondientes un día antes del evento a través del correo de registro.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
+                    <button class="w-full p-6 text-left font-serif font-bold text-slate-900 hover:text-petroleo transition-colors flex justify-between items-center focus:outline-none" onclick="toggleFaq(this)">
+                        <span>¿Se otorga constancia de participación al finalizar?</span>
+                        <i class="fa-solid fa-chevron-down text-xs transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-xs md:text-sm text-slate-600 hidden">
+                        Sí, se emite una constancia digital oficial con validez oficial firmada y avalada directamente por la Dra. Nalleli Weber Chuliá, ideal para enriquecer tu expediente y currículum.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
+                    <button class="w-full p-6 text-left font-serif font-bold text-slate-900 hover:text-petroleo transition-colors flex justify-between items-center focus:outline-none" onclick="toggleFaq(this)">
+                        <span>¿Qué métodos de pago tienen disponibles?</span>
+                        <i class="fa-solid fa-chevron-down text-xs transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-xs md:text-sm text-slate-600 hidden">
+                        Aceptamos transferencias electrónicas interbancarias (SPEI), depósitos bancarios directos y pago mediante tarjetas de crédito/débito a través de enlace seguro. Los datos de pago se envían automáticamente al pre-registrarte.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
+                    <button class="w-full p-6 text-left font-serif font-bold text-slate-900 hover:text-petroleo transition-colors flex justify-between items-center focus:outline-none" onclick="toggleFaq(this)">
+                        <span>¿El curso quedará grabado para consulta posterior?</span>
+                        <i class="fa-solid fa-chevron-down text-xs transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-xs md:text-sm text-slate-600 hidden">
+                        Sí, todos los alumnos inscritos tendrán acceso exclusivo a la grabación del curso completo durante 30 días posteriores al evento, ideal para repasar los criterios jurídicos complejos con calma.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-premium-gradient text-white pt-16 pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-white/10 pb-12 mb-12">
+                
+                <!-- Col 1: Logo & Vision -->
+                <div class="space-y-4">
+                    <a href="#" class="flex items-center space-x-3">
+                        <div class="bg-dorado p-2 rounded-lg text-slate-950 flex items-center justify-center">
+                            <i class="fa-solid fa-scale-balanced text-xl"></i>
+                        </div>
+                        <div>
+                            <span class="block font-serif text-lg font-bold tracking-wider leading-none">DRA. WEBER</span>
+                            <span class="block text-xs uppercase tracking-widest text-dorado font-semibold">Regulación Sanitaria</span>
+                        </div>
+                    </a>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Comprometidos con la seguridad regulatoria de los profesionales de la salud. Capacitaciones de excelencia y alto valor jurídico.
+                    </p>
+                </div>
+
+                <!-- Col 2: Navigation Links -->
+                <div>
+                    <h4 class="font-serif text-sm font-bold text-dorado uppercase tracking-wider mb-4">Navegación</h4>
+                    <ul class="space-y-2.5 text-xs text-slate-400">
+                        <li><a href="#riesgos" class="hover:text-white transition-colors">Estadísticas de Sanciones</a></li>
+                        <li><a href="#perfil" class="hover:text-white transition-colors">Público Objetivo</a></li>
+                        <li><a href="#programa" class="hover:text-white transition-colors">Plan Académico</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Contact Info (Retaining no-@ address) -->
+                <div>
+                    <h4 class="font-serif text-sm font-bold text-dorado uppercase tracking-wider mb-4">Contacto</h4>
+                    <ul class="space-y-2.5 text-xs text-slate-400">
+                        <li><i class="fa-solid fa-envelope text-dorado mr-2"></i> infodraweberregula.com</li>
+                        <li><i class="fa-solid fa-phone text-dorado mr-2"></i> +52 55 8504 1540</li>
+                        <li><i class="fa-solid fa-map-marker-alt text-dorado mr-2"></i> Ciudad de México, México</li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Social Channels (WhatsApp Only, other social platforms removed as requested) -->
+                <div>
+                    <h4 class="font-serif text-sm font-bold text-dorado uppercase tracking-wider mb-4">Redes Sociales</h4>
+                    <div class="flex space-x-3.5 text-lg">
+                        <a href="https://wa.me/525585041540" target="_blank" class="w-10 h-10 bg-white/5 hover:bg-dorado/20 rounded-full flex items-center justify-center transition-colors border border-white/10 text-emerald-400"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom Legal & Privacy Notices -->
+            <div class="flex flex-col sm:flex-row justify-between items-center text-[10px] text-slate-500 gap-4">
+                <span>&copy; 2026 Dra. Nalleli Weber Chuliá. Todos los derechos reservados.</span>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-white transition-colors">Aviso de Privacidad</a>
+                    <a href="#" class="hover:text-white transition-colors">Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/525585041540?text=Hola%20Dra.%20Weber%2C%20deseo%20recibir%20informaci%C3%B3n%20e%20inscribirme%20al%20curso%20%C2%BFAviso%20o%20Permiso%20de%20Publicidad%3F" target="_blank" class="whatsapp-float bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl text-2xl transition-transform hover:scale-110">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- AOS Script for Scroll Animations -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <script>
+        
+        // Initializing Animate On Scroll
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+
+        // Toggle Mobile Menu Navigation
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Toggle FAQ Accordion Panels
+        function toggleFaq(btn) {
+            const panel = btn.nextElementSibling;
+            const icon = btn.querySelector('i');
+            
+            // Toggle visibility of the answer panel
+            panel.classList.toggle('hidden');
+            
+            // Animate Chevron Rotate
+            if (panel.classList.contains('hidden')) {
+                icon.style.transform = 'rotate(0deg)';
+            } else {
+                icon.style.transform = 'rotate(180deg)';
+            }
+        }
+    </script>
+</body>
+</html>
